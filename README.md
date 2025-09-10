@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-donate-yellow.svg)](https://www.buymeacoffee.com/martinchlumsky)
 
-This is [Project Bluefin](https://projectbluefin.io/) (latest tag + intel/amd graphics) with some packages that I use on top.
+Overfin is an immutable Linux distribution based on [Project Bluefin](https://projectbluefin.io/) (latest tag + intel/amd graphics) with some packages that I use on top.
 It's built using [Universal Blue's image template](https://github.com/ublue-os/image-template)
 
 # Install
