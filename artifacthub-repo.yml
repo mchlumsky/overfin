@@ -2,7 +2,7 @@
 # Sign up and add the Repository ID to the right field. Owners fields are optional.
 # Examples: https://artifacthub.io/packages/search?ts_query_web=ublue&sort=relevance&page=1 
 
-repositoryID: c8443702-f8c4-4fa9-aa62-20542adccb47
+repositoryID: 3d61eda8-72d8-4905-823a-162aa2f1e989
 owners:
   - name: Martin Chlumsky
     email: martin.chlumsky@gmail.com
