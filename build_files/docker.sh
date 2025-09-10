@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+set -euox pipefail
+
+# Setup repo
+cat << EOF > /etc/yum.repos.d/docker-ce.repo
+[docker-ce-stable]
+name=Docker CE Stable
+baseurl=https://download.docker.com/linux/fedora/\$releasever/\$basearch/stable
+enabled=0
+gpgcheck=1
+gpgkey=https://download.docker.com/linux/fedora/gpg
+EOF
+
+dnf install -y --enablerepo=docker-ce-stable \
+  docker-ce \
+  docker-ce-cli \
+  containerd.io \
+  docker-buildx-plugin \
+  docker-compose-plugin
+
+systemctl enable docker.socket
+
+rm -f /etc/yum.repos.d/docker-ce.repo
+
+cat >/usr/lib/sysusers.d/eternal-docker.conf <<EOF
+g docker -
+EOF
