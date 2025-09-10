@@ -46,16 +46,16 @@ Finally reboot and that's it!
 - [Brave browser](https://brave.com/)
 
 - Other packages:
-- ghostty
-- ripgrep
-- neovim
-- headsetcontrol
-- golang
-- gdu
-- btop
-- gnome-shell-extension-no-overview
-- shotwell
-- pcp
+  - ghostty
+  - ripgrep
+  - neovim
+  - headsetcontrol
+  - golang
+  - gdu
+  - btop
+  - gnome-shell-extension-no-overview
+  - shotwell
+  - pcp
 
 - Some tools I maintain:
   - [mracek](https://github.com/mchlumsky/mracek)
