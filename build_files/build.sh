@@ -15,7 +15,7 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-dnf5 -y install --enable-repo terra ghostty ripgrep neovim restic headsetcontrol golang gdu btop htop gnome-shell-extension-caffeine gnome-shell-extension-no-overview gnome-shell-extension-appindicator gnome-shell-extension-blur-my-shell xkill shotwell pcp
+dnf5 -y install --enable-repo terra ghostty ripgrep neovim headsetcontrol golang gdu btop gnome-shell-extension-no-overview shotwell pcp
 
 dnf5 -y copr enable dwmw2/openconnect
 dnf5 -y update NetworkManager-openconnect openconnect
