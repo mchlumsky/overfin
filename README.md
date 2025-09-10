@@ -2,6 +2,7 @@
 
 [![Build container image](https://github.com/mchlumsky/overfin/actions/workflows/build.yml/badge.svg)](https://github.com/mchlumsky/overfin/actions/workflows/build.yml)
 [![Build disk images](https://github.com/mchlumsky/overfin/actions/workflows/build-disk.yml/badge.svg)](https://github.com/mchlumsky/overfin/actions/workflows/build-disk.yml)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/overfin)](https://artifacthub.io/packages/search?repo=overfin)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-donate-yellow.svg)](https://www.buymeacoffee.com/martinchlumsky)
 
