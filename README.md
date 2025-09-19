@@ -56,6 +56,8 @@ Finally reboot and that's it!
   - gnome-shell-extension-no-overview
   - shotwell
   - pcp
+  - dropbox
+  - nautilus-dropbox
 
 - Some tools I maintain:
   - [mracek](https://github.com/mchlumsky/mracek)
