@@ -2,6 +2,8 @@
 
 set -ouex pipefail
 
+dnf5 -y remove bazaar
+
 /ctx/virt-manager.sh
 /ctx/docker.sh
 /ctx/1password.sh
@@ -15,7 +17,7 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-dnf -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+dnf5 -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
 dnf5 -y install --enable-repo terra ghostty ripgrep neovim headsetcontrol golang gdu btop gnome-shell-extension-no-overview shotwell pcp
 
