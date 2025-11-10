@@ -45,6 +45,8 @@ Finally reboot and that's it!
 
 - [Brave browser](https://brave.com/)
 
+- Cosmic Desktop environment (as and alternative to GNOME)
+
 - Other packages:
   - ghostty
   - ripgrep

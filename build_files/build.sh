@@ -17,7 +17,7 @@ set -ouex pipefail
 
 dnf -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
-dnf5 -y install --enable-repo terra ghostty ripgrep neovim headsetcontrol golang gdu btop gnome-shell-extension-no-overview shotwell pcp
+dnf5 -y install --enable-repo terra ghostty ripgrep neovim headsetcontrol golang gdu btop gnome-shell-extension-no-overview shotwell pcp @cosmic-desktop @cosmic-desktop-apps
 
 dnf5 -y copr enable dwmw2/openconnect
 dnf5 -y update NetworkManager-openconnect openconnect
