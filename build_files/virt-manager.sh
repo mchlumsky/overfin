@@ -6,7 +6,6 @@ dnf install -y \
   qemu \
   libvirt \
   edk2-ovmf \
-  gnome-boxes \
   libvirt-daemon-config-network \
   libvirt-daemon-kvm \
   qemu-kvm \
