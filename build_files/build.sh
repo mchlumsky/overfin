@@ -2,8 +2,6 @@
 
 set -ouex pipefail
 
-/ctx/virt-manager.sh
-/ctx/docker.sh
 /ctx/1password.sh
 /ctx/brave.sh
 /ctx/mchlumsky.sh
@@ -17,7 +15,7 @@ set -ouex pipefail
 
 dnf -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
-dnf5 -y install --enable-repo terra ghostty headsetcontrol golang gnome-shell-extension-no-overview pcp
+dnf5 -y install --enable-repo terra ghostty headsetcontrol gnome-shell-extension-no-overview
 
 dnf5 -y copr enable dwmw2/openconnect
 dnf5 -y update NetworkManager-openconnect openconnect
