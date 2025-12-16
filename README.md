@@ -6,12 +6,12 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-donate-yellow.svg)](https://www.buymeacoffee.com/martinchlumsky)
 
-Overfin is an immutable Linux distribution based on [Project Bluefin](https://projectbluefin.io/) (latest tag + intel/amd graphics) with some packages that I use on top.
+Overfin is an immutable Linux distribution based on [Project Bluefin's](https://projectbluefin.io/) bluefin-dx image (stable-daily tag + intel/amd graphics) with some packages that I use on top.
 It's built using [Universal Blue's image template](https://github.com/ublue-os/image-template)
 
 # Install
 
-First, install the "Enthusiasts edition" of [Project Bluefin](https://projectbluefin.io/).
+First, install the "Bluefin For Everyone" edition of [Project Bluefin](https://projectbluefin.io/).
 
 Next, switch to the Overfin image:
 
@@ -21,43 +21,10 @@ Finally reboot and that's it!
 
 # Extra packages
 
-- Virt-manager and friends:
-  - qemu
-  - libvirt
-  - edk2-ovmf
-  - gnome-boxes
-  - libvirt-daemon-config-network
-  - libvirt-daemon-kvm
-  - qemu-kvm
-  - virt-install
-  - virt-manager
-  - virt-top
-  - virt-viewer
-
-- Docker CE stable:
-  - docker-ce
-  - docker-ce-cli
-  - containerd.io
-  - docker-buildx-plugin
-  - docker-compose-plugin
-
 - [1password](https://1password.com/)
-
 - [Brave browser](https://brave.com/)
-
-- Cosmic Desktop environment (as and alternative to GNOME)
-
-- Other packages:
-  - ghostty
-  - ripgrep
-  - neovim
-  - headsetcontrol
-  - golang
-  - gdu
-  - btop
-  - gnome-shell-extension-no-overview
-  - shotwell
-  - pcp
+- [ghostty](https://ghostty.org/)
+- [headsetcontrol](https://github.com/Sapd/HeadsetControl)
 
 - Some tools I maintain:
   - [mracek](https://github.com/mchlumsky/mracek)
