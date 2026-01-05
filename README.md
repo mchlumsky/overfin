@@ -21,7 +21,6 @@ Finally reboot and that's it!
 
 # Extra packages
 
-- [1password](https://1password.com/)
 - [Brave browser](https://brave.com/)
 - [ghostty](https://ghostty.org/)
 - [headsetcontrol](https://github.com/Sapd/HeadsetControl)
