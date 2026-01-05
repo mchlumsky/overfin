@@ -2,7 +2,6 @@
 
 set -ouex pipefail
 
-/ctx/1password.sh
 /ctx/brave.sh
 
 ### Install packages
