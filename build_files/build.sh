@@ -13,7 +13,7 @@ set -ouex pipefail
 
 dnf -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
-dnf5 -y install --enable-repo terra ghostty headsetcontrol gnome-shell-extension-no-overview cosmic-edit cosmic-files cosmic-initial-setup cosmic-player cosmic-session cosmic-store cosmic-term
+dnf5 -y install --enable-repo terra ghostty headsetcontrol gnome-shell-extension-no-overview
 
 dnf5 -y copr enable dwmw2/openconnect
 dnf5 -y update NetworkManager-openconnect openconnect
